@@ -101,8 +101,8 @@ int main()
       sprintf(keystate, "%02x %02x %02x", packet.modifiers, packet.keycode[0],
 	      packet.keycode[1]);
       printf("%s\n", keystate);
-      if (keystate[2] == 0 & keystate[3] == 4)
-         fbputchar('a', 20, 20)
+      if (packet.keycode[0] == 0x04)
+         fbputchar('a', 20, 20);
       fbputs(keystate, 6, 0);
       if (packet.keycode[0] == 0x29) { /* ESC pressed? */
 	break;
