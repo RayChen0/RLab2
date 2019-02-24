@@ -9,8 +9,8 @@
  * https://source.android.com/devices/input/keyboard-devices.html
  */
 
-#ifndef USB_HID_KEYS
-#define USB_HID_KEYS
+#ifndef KEY_VALUE
+#define KEY_VALUE
 
 #define KEY_A 0x04 // Keyboard a and A
 #define KEY_B 0x05 // Keyboard b and B
