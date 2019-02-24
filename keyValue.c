@@ -80,7 +80,7 @@ switch (keyPressed1){
 
 
    default:
-      reture 'z';
+      return 'z';
 
 }
 
