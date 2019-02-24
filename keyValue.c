@@ -1,17 +1,4 @@
-#include "fbputchar.h"
-#include <stdio.h>
-#include <stdlib.h>
-#include <string.h>
-#include <sys/socket.h>
-#include <arpa/inet.h>
-#include <unistd.h>
-#include "usbkeyboard.h"
-#include <pthread.h>
-
 #include "keyvalue.h"
-
-struct usb_keyboard_packet packet;
-
 
 char keyValue(int keyPressed1){
 case (keyPressed1){
