@@ -1,7 +1,7 @@
 #include "keyvalue.h"
 
 char keyValue(int keyPressed1){
-case (keyPressed1){
+switch (keyPressed1){
 /* Define letters here */
    case KEY_A:
       return 'a';
