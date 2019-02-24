@@ -147,6 +147,6 @@
 #define KEY_VOLUMEUP 0x80 // Keyboard Volume Up
 #define KEY_VOLUMEDOWN 0x81 // Keyboard Volume Down
 
-char keyValue(int);
+extern char keyValue(int);
 
 #endif
